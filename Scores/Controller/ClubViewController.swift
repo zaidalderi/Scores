@@ -42,7 +42,7 @@ class ClubViewController: UIViewController, UITableViewDelegate, UITableViewData
             for game in self.form! {
                 formArray.append(game)
             }
-            cell.formView.layer.cornerRadius = cell.formView.frame.height / 5
+            cell.formView.layer.cornerRadius = cell.formView.frame.height / 7
             cell.game1Label.text = String(formArray[4])
             cell.game1Label.backgroundColor = self.getBackgroundColor(result: String(formArray[4]))
             cell.game2Label.text = String(formArray[3])
